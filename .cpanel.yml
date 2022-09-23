@@ -1,0 +1,6 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/will6181/public_html/willene.space
+    - /bin/cp -R * $DEPLOYPATH
